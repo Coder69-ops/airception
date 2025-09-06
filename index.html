@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="airCeption - Cutting-Edge Ambient, AI-Driven Patient Monitoring. Room-based sensing with app + API integration for seamless care.">
+    <meta name="keywords" content="ambient sensing, AI monitoring, healthcare technology, continence management, patient dignity">
+    <title>airCeption - Ambient AI-Driven Patient Monitoring</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="allimages/airCeption-banner-logo-1.png" type="image/png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="allimages/airCeption-banner-logo-1.png" alt="airCeption Logo" class="logo">
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+                <li class="nav-item"><a href="#value" class="nav-link">Benefits</a></li>
+                <li class="nav-item"><a href="#how-it-works" class="nav-link">How It Works</a></li>
+                <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link cta-nav">Book a Demo</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="hero-title">
+                    Cutting-Edge Ambient, <span class="highlight">AI-Driven</span> Patient Monitoring
+                </h1>
+                <p class="hero-subtitle">
+                    Room-based sensing with app + API integration for seamless care. 
+                    Revolutionizing continence management with dignity and efficiency.
+                </p>
+                <div class="hero-buttons">
+                    <button class="cta-primary" onclick="scrollToSection('contact')">
+                        <i class="fas fa-calendar-check"></i>
+                        Book a Demo
+                    </button>
+                    <button class="cta-secondary" onclick="scrollToSection('how-it-works')">
+                        <i class="fas fa-play"></i>
+                        See How It Works
+                    </button>
+                </div>
+                <div class="hero-stats" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">Countries Deployed</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Patent Secured</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Real-time Monitoring</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-delay="300">
+                <img src="allimages/Product-image-1.png" alt="airCeption Device" class="hero-device">
+                <div class="floating-feature">
+                    <i class="fas fa-wifi"></i>
+                    <span>Ambient Sensing</span>
+                </div>
+                <div class="floating-feature feature-2">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>Mobile App</span>
+                </div>
+                <div class="floating-feature feature-3">
+                    <i class="fas fa-cloud"></i>
+                    <span>Cloud Integration</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Features -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Revolutionary Technology Features</h2>
+                <p class="section-subtitle">Ambient, AI-enabled room-based monitoring that transforms patient care</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Room-Based Sensing</h3>
+                    <p>Ambient monitoring without wearables or invasive sensors. Our patented technology monitors from the room environment.</p>
+                    <div class="feature-image">
+                        <img src="allimages/updatedWallMountwith.jpg" alt="Wall mounted device" onerror="this.src='allimages/Product-image-1.png'">
+                    </div>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>Plug-and-Play Setup</h3>
+                    <p>Minimal maintenance, easy installation. Get up and running quickly with our streamlined deployment process.</p>
+                    <div class="feature-image">
+                        <img src="allimages/Updatedtable%20mount_202105206.jpg" alt="Table mounted device" onerror="this.src='allimages/Product-image-2.png'">
+                    </div>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Patent-Secured Technology</h3>
+                    <p>Proprietary continence monitoring algorithms backed by robust intellectual property protection.</p>
+                    <div class="feature-image">
+                        <img src="allimages/Product-image-2.png" alt="airCeption technology">
+                    </div>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <h3>Configurable Modules</h3>
+                    <p>Monitor temperature, humidity, air quality, and more. Customize monitoring parameters for specific care environments.</p>
+                    <div class="feature-image">
+                        <img src="allimages/Product-image-4.png" alt="Configurable modules">
+                    </div>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Dedicated Caregiver App</h3>
+                    <p>Real-time alerts, comprehensive dashboards, and intuitive interface designed specifically for healthcare professionals.</p>
+                    <div class="feature-image">
+                        <img src="allimages/Marketing-image-1.png" alt="Mobile app interface">
+                    </div>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>API Integration</h3>
+                    <p>Seamlessly integrate with existing care platforms and electronic health records through our comprehensive API.</p>
+                    <div class="feature-image">
+                        <img src="allimages/Product-image-5.png" alt="API integration">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition -->
+    <section id="value" class="value-proposition">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Value-Based Care Excellence</h2>
+                <p class="section-subtitle">Transforming healthcare delivery through dignity, efficiency, and measurable outcomes</p>
+            </div>
+            
+            <div class="value-grid">
+                <div class="value-card" data-aos="fade-right" data-aos-delay="100">
+                    <div class="value-icon dignity">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Patient Dignity</h3>
+                    <p>Preserve patient privacy and dignity with non-invasive, ambient monitoring that respects personal space while ensuring comprehensive care.</p>
+                    <ul>
+                        <li>No wearable devices required</li>
+                        <li>Maintains patient privacy</li>
+                        <li>Reduces embarrassment and discomfort</li>
+                    </ul>
+                </div>
+
+                <div class="value-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="value-icon efficiency">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Staff Efficiency</h3>
+                    <p>Optimize caregiver workflows with real-time alerts and intelligent monitoring, reducing unnecessary checks and improving response times.</p>
+                    <ul>
+                        <li>Real-time intelligent alerts</li>
+                        <li>Reduced manual monitoring</li>
+                        <li>Streamlined care workflows</li>
+                    </ul>
+                </div>
+
+                <div class="value-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="value-icon outcomes">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Better Clinical Outcomes</h3>
+                    <p>Improve patient health outcomes through proactive monitoring, early intervention, and data-driven care decisions.</p>
+                    <ul>
+                        <li>Early complication detection</li>
+                        <li>Proactive intervention</li>
+                        <li>Evidence-based care protocols</li>
+                    </ul>
+                </div>
+
+                <div class="value-card" data-aos="fade-left" data-aos-delay="400">
+                    <div class="value-icon savings">
+                        <i class="fas fa-piggy-bank"></i>
+                    </div>
+                    <h3>Cost Savings</h3>
+                    <p>Reduce healthcare costs through decreased consumables, fewer complications, and optimized resource allocation.</p>
+                    <ul>
+                        <li>Reduced consumable waste</li>
+                        <li>Lower complication rates</li>
+                        <li>Optimized staffing efficiency</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="value-showcase" data-aos="fade-up" data-aos-delay="500">
+                <div class="showcase-content">
+                    <h3>"airCeption is the voice for the dependent — notifying caregivers in real time."</h3>
+                    <p>Our ambient sensing technology bridges the gap between patient needs and caregiver response, creating a seamless care environment that prioritizes both dignity and efficiency.</p>
+                </div>
+                <div class="showcase-image">
+                    <img src="allimages/Marketing-Image2.png" alt="Healthcare professional using airCeption">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">How airCeption Works</h2>
+                <p class="section-subtitle">Simple installation, intelligent monitoring, immediate response</p>
+            </div>
+
+            <div class="workflow-steps">
+                <div class="workflow-step" data-aos="fade-right" data-aos-delay="100">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Install</h3>
+                        <p>Quick and easy wall or table mounting. Plug-and-play setup connects to your existing network infrastructure.</p>
+                        <img src="allimages/Product-image-7.png" alt="Installation process" class="step-image">
+                    </div>
+                </div>
+
+                <div class="workflow-step reverse" data-aos="fade-left" data-aos-delay="200">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Monitor</h3>
+                        <p>Ambient AI sensors continuously monitor room conditions, detecting changes in real-time without patient interaction.</p>
+                        <img src="allimages/airCeption_posts.jpg" alt="Monitoring dashboard" class="step-image">
+                    </div>
+                </div>
+
+                <div class="workflow-step" data-aos="fade-right" data-aos-delay="300">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Alert</h3>
+                        <p>Intelligent algorithms analyze patterns and send instant notifications to caregivers through mobile app and integrated systems.</p>
+                        <img src="allimages/Marketing-image-1.png" alt="Alert system" class="step-image" onerror="this.src='allimages/Product-image-4.png'">
+                    </div>
+                </div>
+
+                <div class="workflow-step reverse" data-aos="fade-left" data-aos-delay="400">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Respond</h3>
+                        <p>Caregivers receive actionable insights enabling timely, dignified care interventions that improve patient outcomes.</p>
+                        <img src="allimages/Marketing-Image2.png" alt="Caregiver response" class="step-image" onerror="this.src='allimages/Product-image-5.png'">
+                    </div>
+                </div>
+            </div>
+
+            <div class="deployment-info" data-aos="fade-up" data-aos-delay="500">
+                <h3>Deployed Internationally</h3>
+                <div class="deployment-countries">
+                    <div class="country-item">
+                        <i class="fas fa-flag-usa"></i>
+                        <span>United States</span>
+                    </div>
+                    <div class="country-item">
+                        <i class="fas fa-flag"></i>
+                        <span>United Kingdom</span>
+                    </div>
+                    <div class="country-item">
+                        <i class="fas fa-flag"></i>
+                        <span>Ireland</span>
+                    </div>
+                    <div class="country-item">
+                        <i class="fas fa-flag"></i>
+                        <span>Norway</span>
+                    </div>
+                </div>
+                <p>Production ready and manufactured in Ireland with international deployment success</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Ready to advance your continence management practices?</h2>
+                <p>Join healthcare providers worldwide who are revolutionizing patient care with airCeption's ambient AI monitoring technology.</p>
+                <div class="cta-buttons">
+                    <button class="cta-primary large">
+                        <i class="fas fa-calendar-check"></i>
+                        Schedule a Call
+                    </button>
+                    <button class="cta-secondary large">
+                        <i class="fas fa-download"></i>
+                        Download Brochure
+                    </button>
+                </div>
+                <div class="cta-contact-info">
+                    <p>Welcoming aligned healthcare providers, RPM and bedside monitoring companies to partner with us</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Leadership Team</h2>
+                <p class="section-subtitle">Experienced innovators driving the future of ambient healthcare monitoring</p>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member-photo">
+                        <img src="https://via.placeholder.com/300x300/4d1f32/ffffff?text=JK" alt="John Kelly" class="member-image">
+                        <div class="member-social">
+                            <a href="https://www.linkedin.com/in/johnkelly10/" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>John Kelly</h3>
+                        <p class="member-title">Founder & CEO</p>
+                        <p class="member-bio">
+                            John Kelly is the original inventor and driving force behind airCeption®. With over 15 years of work in ambient sensing and healthcare innovation, he has taken airCeption from concept through prototyping to international deployment. He is deeply committed to advancing care for vulnerable patients and ensuring dignity and better outcomes for those with complex care needs.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-photo">
+                        <img src="https://via.placeholder.com/300x300/4d1f32/ffffff?text=IW" alt="Iain Warner" class="member-image">
+                        <div class="member-social">
+                            <a href="https://www.linkedin.com/in/iain-warner-2205346/" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Iain Warner</h3>
+                        <p class="member-title">Co-Founder & CTO</p>
+                        <p class="member-bio">
+                            Iain Warner leads technology development at airCeption, overseeing system architecture, firmware, and cloud operations. With a strong background in IoT platforms and medical technology systems, Iain has played a critical role in stabilizing and scaling the airCeption platform. He is focused on ensuring the system remains robust, secure, and ready for integration with partner platforms, while supporting the company's roadmap toward AI-driven predictive health sensing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="allimages/airCeption-banner-logo-2.png" alt="airCeption Logo" class="logo">
+                    </div>
+                    <p>Revolutionizing continence management with ambient, AI-driven sensing technology.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#value">Benefits</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#team">Team</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#" onclick="showPrivacyPolicy()">Privacy Policy</a></li>
+                        <li><a href="#" onclick="showTerms()">Terms of Service</a></li>
+                        <li><a href="https://login.airception.com" target="_blank">Partner Login</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Ready to learn more?</p>
+                    <button class="cta-footer">Schedule a Demo</button>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 airCeption. All rights reserved. | Manufactured in Ireland</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Privacy Policy Modal -->
+    <div id="privacy-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Privacy Policy</h2>
+            <p><strong>Last updated: September 2025</strong></p>
+            <p>airCeption ("we," "our," or "us") respects your privacy and is committed to protecting it. This Privacy Policy explains how we collect, use, and safeguard information when you visit our website.</p>
+            
+            <h3>Information We Collect</h3>
+            <ul>
+                <li>Personal information you provide (such as name, email, phone number) when you contact us or request a demo.</li>
+                <li>Technical data such as IP address, browser type, and pages visited, collected via standard web analytics.</li>
+            </ul>
+            
+            <h3>How We Use Information</h3>
+            <ul>
+                <li>To respond to inquiries and provide requested information.</li>
+                <li>To improve our website and user experience.</li>
+                <li>To communicate with you about airCeption's services, events, and updates (with your consent).</li>
+            </ul>
+            
+            <h3>Sharing of Information</h3>
+            <p>We do not sell or rent personal information. We may share information with trusted service providers who support our operations, or if required by law.</p>
+            
+            <h3>Data Security</h3>
+            <p>We use reasonable technical and organizational measures to safeguard your information. However, no system is completely secure.</p>
+            
+            <h3>Your Rights</h3>
+            <p>Depending on your location, you may have rights to access, correct, or delete your personal data. To exercise these rights, please contact us.</p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
